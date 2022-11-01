@@ -1,0 +1,239 @@
+@import url('http://fonts.cdnfonts.com/css/roboto');
+
+body {
+    margin: 0;
+    font-family: roboto;
+    -webkit-font-smoothing: antialiased;
+    color: aliceblue;
+    /* background: url(./images/grain_png_back.png) rgb(23, 15, 30); */
+    background: linear-gradient(0deg, rgba(42, 27, 47, 2) 10%, rgba(23, 15, 30, 1) 90%);
+    background-repeat: no-repeat;
+
+}
+
+nav {
+    display: inline;
+    z-index: 2;
+    background: blue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background:rgb(42 27 47);
+    justify-content: space-between;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.logo1 {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    padding: 0px 46px;
+    align-items: center;
+  justify-content: space-between;
+    height: 70px;
+    display: flex;
+}
+.logo1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.manu{
+    width: 50vh;
+    display: flex;
+    margin: 0px 10vh 0px 0px;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+}
+.manu ul {
+    margin: 0px;
+    text-decoration: none;
+    display: contents;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    padding: 10px;
+}
+.manu ul li{
+    justify-content: space-between;
+}
+.manu ul li:hover{
+    text-align: center;
+    background-color: purple;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    width: auto;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.rtf {
+    height: 30px;
+    animation: 60s linear 0s infinite normal forwards running dkLMwA;
+    display: flex;
+    flex-shrink: 0;
+    gap: var(--gap);
+    justify-content: space-around;
+    min-width: 100%;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+#app {
+    height: 100%
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    display: flex;
+    height: 91vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#motor2 {
+    animation: m2 3s ease;
+}
+
+#arm {
+    color: aliceblue;
+    animation: arm 1s ease;
+}
+
+#mot2 {
+    animation: motor2 3s ease;
+    transform-origin: bottom left;
+    transform-box: fill-box;
+}
+
+#mot1 {
+    animation: mot1 3s ease;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+#armbar1 {
+    animation: armbar2 3s ease;
+    transform-origin: top left;
+    transform-box: fill-box;
+}
+.circle{
+    position: absolute;
+    height: 35rem;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    border: 10px solid white 20deg;
+    width: 35rem;
+    animation: bar 3s ease;
+}
+
+@keyframes bar{
+    form{
+        tra
+    }
+    to{
+        
+    }
+}
+@keyframes armbar2 {
+    from {
+        transform: rotateZ(20deg) translate(-45px, -220px);
+    }
+
+    to {
+        transform: rotateZ(0deg) translate(0px, 0px);
+    }
+}
+
+@keyframes mot1 {
+    from {
+        transform: rotateZ(20deg) translate(-100px, -100px);
+    }
+
+    to {
+        transform: rotateZ(0deg) translate(0px, 0px);
+    }
+}
+
+@keyframes motor2 {
+    from {
+        transform: rotateZ(-20deg);
+    }
+
+    to {
+        transform: rotateZ(0deg);
+    }
+}
+.projectsection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.PW{
+    align-items: center;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.p1{
+    margin: 50px;
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+}
