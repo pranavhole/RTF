@@ -935,7 +935,7 @@
 
 @keyframes armbar2 {
     from {
-        transform: rotateZ(20deg) translate(-45px, -220px);
+        transform: rotateZ(25deg) translate(-45px, -220px);
     }
 
     to {
